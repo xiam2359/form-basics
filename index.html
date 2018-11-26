@@ -12,16 +12,24 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>Favorite Food</h1>
         <hr>
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
+            <input type="text" name="name" placeholder="calvin" required><br> E-mail:
             <input type="email" name="email"><br>
 
             <!--add your own inputs below-->
-
+            Favorite food:<input type="text" name="favorite food"><br>
+            Which?: <input type="radio" name="food" value="sweet"> Sweets
+            <input type="radio" name="food" value="savory"> Savory<br>
+            <select name="desserts">
+                <option value="macaron"> macaron </option>
+                <option value="brownies"> brownies </option>
+                <option value="   " selected>     </option>
+            
+            </select>
 
 
 
